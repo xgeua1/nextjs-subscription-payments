@@ -19,6 +19,7 @@ export default function VideoDetail({ params }: { params: { id: string } }) {
         console.error('加载视频失败:', error.message);
         return;
       }
+
       setVideo(data);
     };
 
